@@ -1,0 +1,126 @@
+*{
+
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+body{
+    background-image: url("asset/Backgrounds_in_CSS.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 200vh;
+    color: white;
+}
+div.container{
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+div.resume{
+    background-color: rgba(159, 27, 86, 0.94);
+    min-width: 200px;
+}
+div.cv-img{
+    display: flex;
+    justify-content: center;
+}
+.f-profiel-naam{
+    margin-top: 13px;
+    margin-left: 26px;
+    text-align: center;
+}
+.profiel-foto{
+    border-radius: 50%;
+}
+.profiel-foto:hover{
+    box-shadow: 5px 5px 3px ;
+    cursor: pointer;
+}
+.profiel-foto:active{
+    border: 4px solid #f7f1ed;
+    box-shadow: none;
+}
+.intro{
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+    display: block;
+}
+p.p-intro{
+    display: block;
+width: 30rem;
+}
+/* tabellen opomaak */
+
+
+h3.title-contactenVaar{
+    margin-left: 527px;
+    margin-top: -5px;
+}
+
+h3.h-opl{
+    margin-top: 70px;
+}
+h3.h-opl, h3.h-erv{
+    margin-left: 25px;
+    display: block;
+}
+
+.opleidingen{
+    display: flex;
+
+}
+li{
+    list-style-type: square;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2d9cdb;
+}
+.lnk{
+    text-decoration: none;
+  margin-top: 15px;
+    color: #000000;
+    cursor: pointer;
+}
+footer p
+{
+    margin-top: 17px;
+}
+@media screen and (max-width: 480px){
+    body{
+        background: #ffffff;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    div.container{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    h2.naam{
+        margin-top: 1.92px;
+    }
+    div.resume{
+        width: 474px;
+        background:  #d2d261;
+    }
+    .cv-img{
+        display: flex;
+        flex-direction: column;
+    }
+    h3.title-contactenVaar{
+        margin-left: 39px;
+    }
+    p.p-intro {
+        display: block;
+        width: 24rem;
+    }
+    table{
+        margin-left: 4px;
+        width: 457px;
+    }
+
+}

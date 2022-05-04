@@ -1,0 +1,143 @@
+
+body{
+    font-family: Calibri, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    background: #e9f8de;
+}
+li.gsm > img{
+    width: 25px;
+    height: 25px;
+
+}
+li.email > img{
+    width: 25px;
+    height: 25px;
+}
+li.email{
+    margin-right: -21px;
+}
+li.linkedin > img{
+     width: 25px;
+     height: 25px;
+ }
+li.adres > img{
+       width: 25px;
+       height: 25px;
+      }
+  div.naam {
+      margin-left: 36px;
+      font-size: 40px;
+      color: white;
+  }
+  div.border{
+      width: 230px;
+      height: 2px;
+      background-color: white;
+  }
+.resume{
+    width: 150vh;
+    height: 1080px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+  }
+ul{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: -16px;
+}
+tbody > tr > td{
+    color: white;
+    font-size: 18px;
+}
+th{
+    text-align: center;
+}
+tr th{
+    color: white;
+    font-size: 18px;
+}
+.links{
+    background-color: #502ba0;
+    width: 250px;
+    padding: 0 20px;
+}
+.contact-lijst{
+    list-style-type: none;
+}
+div.title{
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.links .img-houder{
+    text-align: center;
+    padding: 20px 0;
+}
+.links .img-houder img{
+    width: 25vh;
+    border-radius: 30px;
+}
+div.title-contact{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+    margin-left: 63px;
+    margin-top: 17px;
+}
+.recht{
+    display: flex;
+    flex-direction: column;
+}
+.title-inl{
+    margin-top: 35px;
+    margin-left: 20px;
+    font-size: 33px;
+}
+.tekst{
+    width: 693px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+}
+table{
+    margin-top: 15px;
+}
+
+.font-size20{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.title-opl{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 33px;
+}
+.opl-box{
+    margin-left: 20px;
+
+}
+h4{
+    text-transform: uppercase;
+}
+.content-opl1{
+    margin-top: 0px;
+}
+.middelhmargin{
+    margin-top: -22px;
+    margin-bottom: -2px;
+}
+div.content-opl2 > p{
+    margin-top: 0px;
+}
+div.content-opl2 > p{
+    margin-top: 0px;
+
+}
+.title-werk{
+    margin-top: -3px;
+    margin-left: 20px;
+    font-size: 33px;
+}
